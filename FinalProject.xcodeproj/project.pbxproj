@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		211C7A123030DF910014C791 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C7A113030DF910014C791 /* Login.swift */; };
 		216F37E130248DB50071EC7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216F37E030248DB50071EC7A /* AppDelegate.swift */; };
 		216F37E330248DB50071EC7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216F37E230248DB50071EC7A /* SceneDelegate.swift */; };
 		216F37E530248DB50071EC7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216F37E430248DB50071EC7A /* ViewController.swift */; };
 		216F37E830248DB50071EC7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 216F37E630248DB50071EC7A /* Main.storyboard */; };
 		216F37EA30248DC10071EC7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 216F37E930248DC10071EC7A /* Assets.xcassets */; };
 		216F37ED30248DC10071EC7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 216F37EB30248DC10071EC7A /* LaunchScreen.storyboard */; };
+		218B75F83031C4C100E80C96 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218B75F73031C4C100E80C96 /* MainTabBarViewController.swift */; };
+		218C815A302B49AB0069E53B /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218C8151302B49AB0069E53B /* File.swift */; };
+		218C815B302B49AB0069E53B /* DINNextLTArabic-UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 218C8153302B49AB0069E53B /* DINNextLTArabic-UltraLight.ttf */; };
+		218C815C302B49AB0069E53B /* DINNextLTArabic-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 218C8154302B49AB0069E53B /* DINNextLTArabic-Light.ttf */; };
+		218C815D302B49AB0069E53B /* DINNextLTArabic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 218C8155302B49AB0069E53B /* DINNextLTArabic-Bold.ttf */; };
+		218C815E302B49AB0069E53B /* DINNextLTArabic-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 218C8156302B49AB0069E53B /* DINNextLTArabic-Medium.ttf */; };
+		218C815F302B49AC0069E53B /* DINNextLTArabic-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 218C8157302B49AB0069E53B /* DINNextLTArabic-Heavy.ttf */; };
+		218C8160302B49AC0069E53B /* DINNextLTArabic-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 218C8158302B49AB0069E53B /* DINNextLTArabic-Black.ttf */; };
+		218C8161302B49AC0069E53B /* DINNextLTArabic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 218C8159302B49AB0069E53B /* DINNextLTArabic-Regular.ttf */; };
+		218C8168302B4B280069E53B /* Almarai-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 218C8163302B4B280069E53B /* Almarai-Bold.ttf */; };
+		218C8169302B4B280069E53B /* Almarai-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 218C8164302B4B280069E53B /* Almarai-ExtraBold.ttf */; };
+		218C816A302B4B280069E53B /* Almarai-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 218C8165302B4B280069E53B /* Almarai-Regular.ttf */; };
+		218C816B302B4B280069E53B /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 218C8166302B4B280069E53B /* OFL.txt */; };
+		218C816C302B4B280069E53B /* Almarai-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 218C8167302B4B280069E53B /* Almarai-Light.ttf */; };
+		218C816E302FAD7B0069E53B /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 218C816D302FAD7B0069E53B /* Login.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		211C7A113030DF910014C791 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		216F37DD30248DB50071EC7A /* FinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		216F37E030248DB50071EC7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		216F37E230248DB50071EC7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +41,21 @@
 		216F37E930248DC10071EC7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		216F37EC30248DC10071EC7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		216F37EE30248DC10071EC7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		218B75F73031C4C100E80C96 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		218C8151302B49AB0069E53B /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		218C8153302B49AB0069E53B /* DINNextLTArabic-UltraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTArabic-UltraLight.ttf"; sourceTree = "<group>"; };
+		218C8154302B49AB0069E53B /* DINNextLTArabic-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTArabic-Light.ttf"; sourceTree = "<group>"; };
+		218C8155302B49AB0069E53B /* DINNextLTArabic-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTArabic-Bold.ttf"; sourceTree = "<group>"; };
+		218C8156302B49AB0069E53B /* DINNextLTArabic-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTArabic-Medium.ttf"; sourceTree = "<group>"; };
+		218C8157302B49AB0069E53B /* DINNextLTArabic-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTArabic-Heavy.ttf"; sourceTree = "<group>"; };
+		218C8158302B49AB0069E53B /* DINNextLTArabic-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTArabic-Black.ttf"; sourceTree = "<group>"; };
+		218C8159302B49AB0069E53B /* DINNextLTArabic-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTArabic-Regular.ttf"; sourceTree = "<group>"; };
+		218C8163302B4B280069E53B /* Almarai-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Almarai-Bold.ttf"; sourceTree = "<group>"; };
+		218C8164302B4B280069E53B /* Almarai-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Almarai-ExtraBold.ttf"; sourceTree = "<group>"; };
+		218C8165302B4B280069E53B /* Almarai-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Almarai-Regular.ttf"; sourceTree = "<group>"; };
+		218C8166302B4B280069E53B /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		218C8167302B4B280069E53B /* Almarai-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Almarai-Light.ttf"; sourceTree = "<group>"; };
+		218C816D302FAD7B0069E53B /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +69,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		211C7A133030DFAE0014C791 /* App Secreen VC */ = {
+			isa = PBXGroup;
+			children = (
+				216F37E430248DB50071EC7A /* ViewController.swift */,
+				211C7A113030DF910014C791 /* Login.swift */,
+				218B75F73031C4C100E80C96 /* MainTabBarViewController.swift */,
+			);
+			path = "App Secreen VC";
+			sourceTree = "<group>";
+		};
 		216F37D430248DB50071EC7A = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +98,53 @@
 		216F37DF30248DB50071EC7A /* FinalProject */ = {
 			isa = PBXGroup;
 			children = (
+				218C8150302B49AB0069E53B /* App Resours */,
 				216F37E030248DB50071EC7A /* AppDelegate.swift */,
 				216F37E230248DB50071EC7A /* SceneDelegate.swift */,
-				216F37E430248DB50071EC7A /* ViewController.swift */,
 				216F37E630248DB50071EC7A /* Main.storyboard */,
 				216F37E930248DC10071EC7A /* Assets.xcassets */,
 				216F37EB30248DC10071EC7A /* LaunchScreen.storyboard */,
 				216F37EE30248DC10071EC7A /* Info.plist */,
+				218C816D302FAD7B0069E53B /* Login.storyboard */,
+				211C7A133030DFAE0014C791 /* App Secreen VC */,
 			);
 			path = FinalProject;
+			sourceTree = "<group>";
+		};
+		218C8150302B49AB0069E53B /* App Resours */ = {
+			isa = PBXGroup;
+			children = (
+				218C8162302B4B280069E53B /* Almarai */,
+				218C8151302B49AB0069E53B /* File.swift */,
+				218C8152302B49AB0069E53B /* DIN Next Arabic Complete Family */,
+			);
+			path = "App Resours";
+			sourceTree = "<group>";
+		};
+		218C8152302B49AB0069E53B /* DIN Next Arabic Complete Family */ = {
+			isa = PBXGroup;
+			children = (
+				218C8153302B49AB0069E53B /* DINNextLTArabic-UltraLight.ttf */,
+				218C8154302B49AB0069E53B /* DINNextLTArabic-Light.ttf */,
+				218C8155302B49AB0069E53B /* DINNextLTArabic-Bold.ttf */,
+				218C8156302B49AB0069E53B /* DINNextLTArabic-Medium.ttf */,
+				218C8157302B49AB0069E53B /* DINNextLTArabic-Heavy.ttf */,
+				218C8158302B49AB0069E53B /* DINNextLTArabic-Black.ttf */,
+				218C8159302B49AB0069E53B /* DINNextLTArabic-Regular.ttf */,
+			);
+			path = "DIN Next Arabic Complete Family";
+			sourceTree = "<group>";
+		};
+		218C8162302B4B280069E53B /* Almarai */ = {
+			isa = PBXGroup;
+			children = (
+				218C8163302B4B280069E53B /* Almarai-Bold.ttf */,
+				218C8164302B4B280069E53B /* Almarai-ExtraBold.ttf */,
+				218C8165302B4B280069E53B /* Almarai-Regular.ttf */,
+				218C8166302B4B280069E53B /* OFL.txt */,
+				218C8167302B4B280069E53B /* Almarai-Light.ttf */,
+			);
+			path = Almarai;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +204,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				218C816E302FAD7B0069E53B /* Login.storyboard in Resources */,
+				218C816B302B4B280069E53B /* OFL.txt in Resources */,
+				218C815D302B49AB0069E53B /* DINNextLTArabic-Bold.ttf in Resources */,
+				218C815E302B49AB0069E53B /* DINNextLTArabic-Medium.ttf in Resources */,
+				218C8169302B4B280069E53B /* Almarai-ExtraBold.ttf in Resources */,
 				216F37ED30248DC10071EC7A /* LaunchScreen.storyboard in Resources */,
+				218C815F302B49AC0069E53B /* DINNextLTArabic-Heavy.ttf in Resources */,
+				218C815C302B49AB0069E53B /* DINNextLTArabic-Light.ttf in Resources */,
+				218C8168302B4B280069E53B /* Almarai-Bold.ttf in Resources */,
 				216F37EA30248DC10071EC7A /* Assets.xcassets in Resources */,
 				216F37E830248DB50071EC7A /* Main.storyboard in Resources */,
+				218C816C302B4B280069E53B /* Almarai-Light.ttf in Resources */,
+				218C815B302B49AB0069E53B /* DINNextLTArabic-UltraLight.ttf in Resources */,
+				218C816A302B4B280069E53B /* Almarai-Regular.ttf in Resources */,
+				218C8161302B49AC0069E53B /* DINNextLTArabic-Regular.ttf in Resources */,
+				218C8160302B49AC0069E53B /* DINNextLTArabic-Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +231,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				216F37E530248DB50071EC7A /* ViewController.swift in Sources */,
+				211C7A123030DF910014C791 /* Login.swift in Sources */,
+				218C815A302B49AB0069E53B /* File.swift in Sources */,
+				218B75F83031C4C100E80C96 /* MainTabBarViewController.swift in Sources */,
 				216F37E130248DB50071EC7A /* AppDelegate.swift in Sources */,
 				216F37E330248DB50071EC7A /* SceneDelegate.swift in Sources */,
 			);
@@ -288,6 +384,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FinalProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,6 +403,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FinalProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
