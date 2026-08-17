@@ -13,5 +13,7 @@ class Const{
     
 
     static let praimaryColor = UIColor.init(named: "Praimary")
+    static let categoryColor = UIColor.init(named: "Category")
+    
 
 }
