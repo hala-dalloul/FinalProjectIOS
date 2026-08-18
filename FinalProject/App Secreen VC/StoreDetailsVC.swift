@@ -17,6 +17,8 @@ class StoreDetailsVC: UIViewController ,UITextViewDelegate,
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = store?.name
+        itemsList.rowHeight = 174
+        itemsList.estimatedRowHeight = 0
     }
 }
 

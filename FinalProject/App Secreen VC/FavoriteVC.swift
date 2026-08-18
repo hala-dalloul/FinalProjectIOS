@@ -50,31 +50,7 @@ class FavoriteVC: UIViewController,
 
         cell.configure(with: item)
 
-            cell.onLoveTapped = { [weak self] in
-                guard let self = self else { return }
-                self.favoriteItems.remove(at: indexPath.row)
-                self.itemsList.reloadData()
-            }
-            cell.onAddCartTapped = { [weak self] in
-                self?.addToCart(item)
-            }
-
         return cell
-    }
-
-    @objc func loveTapped(_ sender: UIButton) {
-        let item = favoriteItems[sender.tag]
-        favoriteItems.remove(at: sender.tag)
-        itemsList.reloadData()
-        print("Removed from favorites: \(item.title)")
-    }
-
-    @objc func addCartTapped(_ sender: UIButton) {
-        let item = favoriteItems[sender.tag]
-        print("Added to cart: \(item.title)")
-    }
-    private func addToCart(_ item: ProductItem) {
-        print("Added to cart: \(item.title)")
     }
 
 }
