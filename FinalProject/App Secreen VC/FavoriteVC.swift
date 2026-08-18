@@ -7,32 +7,24 @@
 
 import UIKit
 
-struct FavoriteItem {
-    let image: String
-    let title: String
-    let weight: String
-    let newPrice: String
-    let oldPrice: String
-}
-
 class FavoriteVC: UIViewController,
                    UITextViewDelegate,
                    UITableViewDataSource {
 
     @IBOutlet weak var itemsList: UITableView!
 
-    var favoriteItems: [FavoriteItem] = [
-        FavoriteItem(image: "test_img", title: "item one", weight: "10kg",
+    var favoriteItems: [ProductItem] = [
+        ProductItem(image: "test_img", title: "item one", weight: "10kg",
                      newPrice: "99.7", oldPrice: "103.33"),
-        FavoriteItem(image: "test_img", title: "item one", weight: "10kg",
+        ProductItem(image: "test_img", title: "item one", weight: "10kg",
                      newPrice: "99.7", oldPrice: "103.33"),
-        FavoriteItem(image: "test_img", title: "item one", weight: "10kg",
+        ProductItem(image: "test_img", title: "item one", weight: "10kg",
                      newPrice: "99.7", oldPrice: "103.33"),
-        FavoriteItem(image: "test_img", title: "item one", weight: "10kg",
+        ProductItem(image: "test_img", title: "item one", weight: "10kg",
                      newPrice: "99.7", oldPrice: "103.33"),
-        FavoriteItem(image: "test_img", title: "item one", weight: "10kg",
+        ProductItem(image: "test_img", title: "item one", weight: "10kg",
                      newPrice: "99.7", oldPrice: "103.33"),
-        FavoriteItem(image: "test_img", title: "item one", weight: "10kg",
+        ProductItem(image: "test_img", title: "item one", weight: "10kg",
                      newPrice: "99.7", oldPrice: "103.33")
     ]
 
@@ -81,7 +73,7 @@ class FavoriteVC: UIViewController,
         let item = favoriteItems[sender.tag]
         print("Added to cart: \(item.title)")
     }
-    private func addToCart(_ item: FavoriteItem) {
+    private func addToCart(_ item: ProductItem) {
         print("Added to cart: \(item.title)")
     }
 

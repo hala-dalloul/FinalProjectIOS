@@ -36,7 +36,7 @@ class FavoriteCellTVC: UITableViewCell {
         // Configure the view for the selected state
     }
  
-    func configure(with item: FavoriteItem) {
+    func configure(with item: ProductItem) {
         itemImage.image = UIImage(named: item.image) ?? UIImage(systemName: "photo")
         itemTitle.text = item.title
         itemWight.text = item.weight

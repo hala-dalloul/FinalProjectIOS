@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		211C7A123030DF910014C791 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C7A113030DF910014C791 /* Login.swift */; };
+		2166417830349AF700485F7D /* ProductItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2166417730349AF700485F7D /* ProductItem.swift */; };
 		216716233032F1FD004F038B /* ShoppingCartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216716223032F1FD004F038B /* ShoppingCartVC.swift */; };
 		216716273032F9D3004F038B /* PersonInfoTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216716263032F9D3004F038B /* PersonInfoTVC.swift */; };
 		216F37E130248DB50071EC7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216F37E030248DB50071EC7A /* AppDelegate.swift */; };
@@ -44,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		211C7A113030DF910014C791 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		2166417730349AF700485F7D /* ProductItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItem.swift; sourceTree = "<group>"; };
 		216716223032F1FD004F038B /* ShoppingCartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartVC.swift; sourceTree = "<group>"; };
 		216716263032F9D3004F038B /* PersonInfoTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfoTVC.swift; sourceTree = "<group>"; };
 		216F37DD30248DB50071EC7A /* FinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,6 +104,7 @@
 				216716223032F1FD004F038B /* ShoppingCartVC.swift */,
 				21826C6630337EF600B3684A /* AccountVC.swift */,
 				218695E030344E850000300B /* FavoriteVC.swift */,
+				2166417730349AF700485F7D /* ProductItem.swift */,
 			);
 			path = "App Secreen VC";
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				218B7602303255EB00E80C96 /* Store.swift in Sources */,
 				216F37E130248DB50071EC7A /* AppDelegate.swift in Sources */,
 				216F37E330248DB50071EC7A /* SceneDelegate.swift in Sources */,
+				2166417830349AF700485F7D /* ProductItem.swift in Sources */,
 				216716233032F1FD004F038B /* ShoppingCartVC.swift in Sources */,
 				21826C6730337EF600B3684A /* AccountVC.swift in Sources */,
 				218B760030324BFE00E80C96 /* MarketTableCell.swift in Sources */,

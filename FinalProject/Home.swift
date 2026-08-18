@@ -13,14 +13,11 @@ class Home: UIViewController {
 
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var bannerView: UIScrollView!
-    
-    let categories = ["All", "Vegetables", "Snacks", "Meat","Vegetables", "Snacks", "Meat"]
-    let categories_img = ["ic_all", "broccoli", "food", "chicken", "broccoli", "food", "chicken"]
+
     var selectedItem = 0
     
     @IBOutlet weak var stores_tableview: UITableView!
     
-    @IBOutlet weak var tabelViewCell: UIView!
         let stores: [Store] = [
         
         Store(imageName: "store", name: "Daily Mart", rate: 4.2),
@@ -73,14 +70,14 @@ extension Home :UICollectionViewDelegate,UICollectionViewDataSource, UICollectio
     
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return categories.count
+        return Const.categories.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell
     {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CategoryCell", for: indexPath) as! CategoryCollectionViewCell
-        let name = categories[indexPath.item]
-        let img = categories_img[indexPath.item]
+        let name = Const.categories[indexPath.item]
+        let img = Const.categories_img[indexPath.item]
         cell.setUpCategoryCell(name: name, imageName: img)
         
         if selectedItem == indexPath.item {

@@ -15,5 +15,22 @@ class Const{
     static let praimaryColor = UIColor.init(named: "Praimary")
     static let categoryColor = UIColor.init(named: "Category")
     
+    
+    static let categories = ["All", "Vegetables", "Snacks", "Meat","Vegetables", "Snacks", "Meat"]
+    static let categories_img = ["ic_all", "broccoli", "food", "chicken", "broccoli", "food", "chicken"]
 
+    static let favoriteItems: [ProductItem] = [
+        ProductItem(image: "test_img", title: "item one", weight: "10kg",
+                     newPrice: "99.7", oldPrice: "103.33"),
+        ProductItem(image: "test_img", title: "item one", weight: "10kg",
+                     newPrice: "99.7", oldPrice: "103.33"),
+        ProductItem(image: "test_img", title: "item one", weight: "10kg",
+                     newPrice: "99.7", oldPrice: "103.33"),
+        ProductItem(image: "test_img", title: "item one", weight: "10kg",
+                     newPrice: "99.7", oldPrice: "103.33"),
+        ProductItem(image: "test_img", title: "item one", weight: "10kg",
+                     newPrice: "99.7", oldPrice: "103.33"),
+        ProductItem(image: "test_img", title: "item one", weight: "10kg",
+                     newPrice: "99.7", oldPrice: "103.33")
+    ]
 }
