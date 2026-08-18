@@ -8,7 +8,9 @@
 import UIKit
 
 class PersonInfoTVC: UITableViewCell {
-
+    
+    
+    
     @IBOutlet weak var perfixIcon: UIImageView!
     
     @IBOutlet weak var titleText: UILabel!
@@ -34,16 +36,18 @@ class PersonInfoTVC: UITableViewCell {
             
             titleText.text = title
             
-            if let subtitle = subtitle, !subtitle.isEmpty {
-                descriptionText.text = subtitle
-                descriptionText.isHidden = false
-            } else {
-                descriptionText.text = nil
-                descriptionText.isHidden = true
-            }
+        if let subtitle = subtitle, !subtitle.isEmpty {
+            descriptionText.text = subtitle
+            descriptionText.isHidden = false
             
-        self.siffixIcon.image
-= siffixIcon
+        } else {
+            descriptionText.text = nil
+            descriptionText.isHidden = true
+            
+        }
+
+            
+        self.siffixIcon.image = siffixIcon
         self.siffixIcon.tintColor = .lightGray
         }
 

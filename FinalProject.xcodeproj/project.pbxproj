@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		211C7A123030DF910014C791 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C7A113030DF910014C791 /* Login.swift */; };
 		216716233032F1FD004F038B /* ShoppingCartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216716223032F1FD004F038B /* ShoppingCartVC.swift */; };
-		216716253032F35E004F038B /* AccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216716243032F35E004F038B /* AccountVC.swift */; };
 		216716273032F9D3004F038B /* PersonInfoTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216716263032F9D3004F038B /* PersonInfoTVC.swift */; };
 		216F37E130248DB50071EC7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216F37E030248DB50071EC7A /* AppDelegate.swift */; };
 		216F37E330248DB50071EC7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216F37E230248DB50071EC7A /* SceneDelegate.swift */; };
@@ -17,6 +16,9 @@
 		216F37E830248DB50071EC7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 216F37E630248DB50071EC7A /* Main.storyboard */; };
 		216F37EA30248DC10071EC7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 216F37E930248DC10071EC7A /* Assets.xcassets */; };
 		216F37ED30248DC10071EC7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 216F37EB30248DC10071EC7A /* LaunchScreen.storyboard */; };
+		21826C6730337EF600B3684A /* AccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21826C6630337EF600B3684A /* AccountVC.swift */; };
+		218695E130344E850000300B /* FavoriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218695E030344E850000300B /* FavoriteVC.swift */; };
+		218695E3303450970000300B /* FavoriteCellTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218695E2303450970000300B /* FavoriteCellTVC.swift */; };
 		218B75F83031C4C100E80C96 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218B75F73031C4C100E80C96 /* MainTabBarViewController.swift */; };
 		218B75FA3031DB9D00E80C96 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218B75F93031DB9D00E80C96 /* Home.swift */; };
 		218B75FD3032079800E80C96 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218B75FC3032079800E80C96 /* CategoryCollectionViewCell.swift */; };
@@ -43,7 +45,6 @@
 /* Begin PBXFileReference section */
 		211C7A113030DF910014C791 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		216716223032F1FD004F038B /* ShoppingCartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartVC.swift; sourceTree = "<group>"; };
-		216716243032F35E004F038B /* AccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountVC.swift; sourceTree = "<group>"; };
 		216716263032F9D3004F038B /* PersonInfoTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfoTVC.swift; sourceTree = "<group>"; };
 		216F37DD30248DB50071EC7A /* FinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		216F37E030248DB50071EC7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +54,9 @@
 		216F37E930248DC10071EC7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		216F37EC30248DC10071EC7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		216F37EE30248DC10071EC7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21826C6630337EF600B3684A /* AccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountVC.swift; sourceTree = "<group>"; };
+		218695E030344E850000300B /* FavoriteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteVC.swift; sourceTree = "<group>"; };
+		218695E2303450970000300B /* FavoriteCellTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCellTVC.swift; sourceTree = "<group>"; };
 		218B75F73031C4C100E80C96 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		218B75F93031DB9D00E80C96 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		218B75FC3032079800E80C96 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -96,7 +100,8 @@
 				218B760330325F5A00E80C96 /* StoreDetailsVC.swift */,
 				218B760530326BFD00E80C96 /* OrederVC.swift */,
 				216716223032F1FD004F038B /* ShoppingCartVC.swift */,
-				216716243032F35E004F038B /* AccountVC.swift */,
+				21826C6630337EF600B3684A /* AccountVC.swift */,
+				218695E030344E850000300B /* FavoriteVC.swift */,
 			);
 			path = "App Secreen VC";
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 				218B75FC3032079800E80C96 /* CategoryCollectionViewCell.swift */,
 				218B75FF30324BFE00E80C96 /* MarketTableCell.swift */,
 				216716263032F9D3004F038B /* PersonInfoTVC.swift */,
+				218695E2303450970000300B /* FavoriteCellTVC.swift */,
 			);
 			name = "App Cells";
 			sourceTree = "<group>";
@@ -274,9 +280,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				216716273032F9D3004F038B /* PersonInfoTVC.swift in Sources */,
+				218695E3303450970000300B /* FavoriteCellTVC.swift in Sources */,
 				218B760430325F5A00E80C96 /* StoreDetailsVC.swift in Sources */,
 				218B75FD3032079800E80C96 /* CategoryCollectionViewCell.swift in Sources */,
 				216F37E530248DB50071EC7A /* ViewController.swift in Sources */,
+				218695E130344E850000300B /* FavoriteVC.swift in Sources */,
 				211C7A123030DF910014C791 /* Login.swift in Sources */,
 				218C815A302B49AB0069E53B /* File.swift in Sources */,
 				218B75F83031C4C100E80C96 /* MainTabBarViewController.swift in Sources */,
@@ -284,7 +292,7 @@
 				216F37E130248DB50071EC7A /* AppDelegate.swift in Sources */,
 				216F37E330248DB50071EC7A /* SceneDelegate.swift in Sources */,
 				216716233032F1FD004F038B /* ShoppingCartVC.swift in Sources */,
-				216716253032F35E004F038B /* AccountVC.swift in Sources */,
+				21826C6730337EF600B3684A /* AccountVC.swift in Sources */,
 				218B760030324BFE00E80C96 /* MarketTableCell.swift in Sources */,
 				218B75FA3031DB9D00E80C96 /* Home.swift in Sources */,
 				218B760630326BFD00E80C96 /* OrederVC.swift in Sources */,
